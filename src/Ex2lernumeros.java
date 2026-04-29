@@ -5,6 +5,7 @@ public class Ex2lernumeros {
 
         Scanner sc = new Scanner(System.in);
 
+
         IO.println("quantos numeros você deseja digitar");
 
         int aleatorio = sc.nextInt();
@@ -18,6 +19,7 @@ public class Ex2lernumeros {
         IO.println("Digite um número ");
 
         int maior = aleatorio;
+
         int menor = aleatorio;
 
         for (int i = 2; i <= aleatorio; i++){
